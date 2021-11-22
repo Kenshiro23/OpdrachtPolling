@@ -1,7 +1,8 @@
 <link rel="stylesheet" href="style.css">
 <?php
     echo '
-                <form action="Instellen.php" method="get">
+    		    <h1>Opdracht Polling</h1>
+  	            <form action="Instellen.php" method="get">
                     Ideale Temperatuur:
                     <input type="text" name="idealeTemp" id="">
                     <br>Licht:
