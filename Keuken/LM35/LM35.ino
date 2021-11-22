@@ -48,6 +48,7 @@ void setup() {
 void loop() {
  float temperature = analogRead(A0);
  float millivolts = (temperature/1024.0) * 3300; //3300 is the voltage provided by NodeMCU
+ Serial.println(temperature);
  float celsius = millivolts/10;
  delay(1000);
   
