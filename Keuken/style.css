@@ -1,14 +1,18 @@
 body{
     font-size: 80px;
-    background-color: grey;
+    background-color: silver;
     text-align:center;
 }
 H1{
   font-size: 60px;
   font-style: italic;
-  color: Red;
+  color: black;
 
 
+}
+form{
+  border: 5px black solid;
+ 
 }
 input{
     font-size: 40px;
@@ -19,8 +23,8 @@ input{
 }
 
 button{
-    font-size: 40px;
-    background-color: white;
+    font-size: 60px;
+    background-color: grey;
     border: 1px black solid;
     border-radius: 15px;
 }
