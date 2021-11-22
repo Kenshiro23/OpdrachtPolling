@@ -1,5 +1,14 @@
 body{
-    font-size: 50px;
+    font-size: 80px;
+    background-color: grey;
+    text-align:center;
+}
+H1{
+  font-size: 60px;
+  font-style: italic;
+  color: Red;
+
+
 }
 input{
     font-size: 40px;
@@ -21,11 +30,11 @@ button{
     position: relative;
     width: 70px;
   }
-  
+
   .switch input {
     display:none;
   }
-  
+
   .slider {
     background-color: #ccc;
     bottom: 0;
@@ -36,7 +45,7 @@ button{
     top: 0;
     transition: .4s;
   }
-  
+
   .slider:before {
     background-color: #fff;
     bottom: 4px;
@@ -47,19 +56,19 @@ button{
     transition: .4s;
     width: 35px;
   }
-  
+
   input:checked + .slider {
     background-color: #66bb6a;
   }
-  
+
   input:checked + .slider:before {
     transform: translateX(26px);
   }
-  
+
   .slider.round {
     border-radius: 34px;
   }
-  
+
   .slider.round:before {
     border-radius: 50%;
   }
