@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <?php
     echo '
     		    <h1>Opdracht Polling</h1>
@@ -12,6 +13,7 @@
                         <div class="slider round"></div>
                     </label>
                         <br>
+			<div class="box">
                         <select name="plaats">
                         <option value="" selected>Welke kamer?</option>
                         <option value="Keuken">Keuken</option>
@@ -21,6 +23,7 @@
                         <option value="Slaapkamer 2">Slaapkamer 2</option>
                         <option value="Garage">Garage</option>
                         </select>
+			</div>
                     <br><button type="submit">Sturen</button>
                 </form>
                 
