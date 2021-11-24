@@ -5,11 +5,12 @@ body{
     font-size: 40px;
     color: #00FF00;
     background-color: silver;
+    
     background: url(200.gif) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     text-align: center;
 }
 H1{
@@ -98,4 +99,5 @@ button{
     -webkit-appearance: button;
     appearance: button;
     outline: none;
+    border-radius: 30px;
   }
