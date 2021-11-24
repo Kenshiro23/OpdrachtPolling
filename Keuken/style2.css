@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    text-align: center;
+    background: url(house.jpg) no-repeat center center fixed;
+    font-weight: bold;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-style: italic;
+}
