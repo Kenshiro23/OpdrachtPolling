@@ -7,7 +7,7 @@
                     Ideale Temperatuur:
                     <input type="text" name="idealeTemp" id="">
                     <br>Licht:
-                    
+                    <br>
                     <label class="switch" for="checkbox">
                         <input type="checkbox" name="lichtState" value="" id="checkbox">
                         <div class="slider round"></div>
