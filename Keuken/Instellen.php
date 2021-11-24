@@ -2,30 +2,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <?php
     echo '
-    		    <h1>Opdracht Polling</h1>
-  	            <form action="Instellen.php" method="get">
-                    Ideale Temperatuur:
-                    <input type="text" name="idealeTemp" id="">
-                    <br>Licht:
-                    <br>
-                    <label class="switch" for="checkbox">
-                        <input type="checkbox" name="lichtState" value="" id="checkbox">
-                        <div class="slider round"></div>
-                    </label>
-                        <br>
-			<div class="box">
-                        <select name="plaats">
-                        <option value="" selected>Welke kamer?</option>
-                        <option value="Keuken">Keuken</option>
-                        <option value="Woonplaats">Woonplaats</option>
-                        <option value="Hal">Hal</option>
-                        <option value="Slaapkamer 1">Slaapkamer 1</option>
-                        <option value="Slaapkamer 2">Slaapkamer 2</option>
-                        <option value="Garage">Garage</option>
-                        </select>
-			</div>
-                    <br><button type="submit">Sturen</button>
-                </form>
+    		    <form action="Instellen.php" method="get">
+			    <h1> Opdracht Polling </h1>
+			    Ideale Temperatuur:
+			    <br>
+			    <input type="text" name="idealeTemp" id="">
+			    <br>Licht:
+			    <br>
+			    <label class="switch" for="checkbox">
+				<input type="checkbox" name="lichtState" value="" id="checkbox">
+				<div class="slider round"></div>
+			    </label>
+				<br>
+				<div class="box">
+				<select name="plaats">
+				<option value="" selected>Welke kamer?</option>
+				<option value="Keuken">Keuken</option>
+				<option value="Woonplaats">Woonplaats</option>
+				<option value="Hal">Hal</option>
+				<option value="Slaapkamer 1">Slaapkamer 1</option>
+				<option value="Slaapkamer 2">Slaapkamer 2</option>
+				<option value="Garage">Garage</option>
+				</select>
+			    </div>
+			    <br><button type="submit">Sturen</button>
+			</form>
                 
     ';
 
