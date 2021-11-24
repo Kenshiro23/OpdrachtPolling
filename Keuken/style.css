@@ -2,27 +2,38 @@
   box-sizing: border-box;
 }
 body{
+  font-weight: bold;
     font-size: 40px;
-    color: #00FF00;
-    background-color: silver;
-    
+    color: black;
+    background-color: rgb(155, 155, 155);;
     background: url(200.gif) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     text-align: center;
+}
+form{
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border: 5px solid black;
+  border-radius: 20px;
+  padding: 20px;
 }
 H1{
   font-size: 60px;
   font-style: italic;
-  color: #00FF00;
-
-
+  font-weight: bold;
+  color: black;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
 }
 
 input{
-    font-size: 40px;
+    font-size: 30px;
+    border-radius: 30px;
+    background-color: silver;
 }
 
 .select {
@@ -31,7 +42,8 @@ input{
 
 button{
     font-size: 60px;
-    background-color: #00FF00;
+    font-weight: bold;
+    background-color: silver;
     border: 1px black solid;
     border-radius: 15px;
 }
@@ -89,7 +101,8 @@ button{
     
   }
   .box select {
-    background-color: #00FF00;
+    font-weight: bold;
+    background-color: silver;
     color: black;
     padding: 12px;
     width: 200px;
